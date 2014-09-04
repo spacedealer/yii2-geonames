@@ -1,0 +1,29 @@
+{
+	"name": "spacedealer/yii2-geonames",
+	"description": "Yii2 extension geonames.org webservice api",
+	"authors": [
+		{
+			"name": "Dirk Adler",
+			"email": "adler@spacedealer.de"
+		}
+	],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "git@bitbucket.org:spacedealer/geonames-api.git"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"yiisoft/yii2": "*",
+		"spacedealer/geonames-api": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"spacedealer\\geonames\\": "src/"
+		}
+	}
+}
