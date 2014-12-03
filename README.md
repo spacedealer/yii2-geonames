@@ -2,7 +2,7 @@
 
 **Attention**: Please do not use in production environments. It‘s WIP.
 
-This is a [geonames API](http://www.geonames.org/export/web-services.html) client extensions for the Yii2 Framework.
+This is a [geonames API](http://www.geonames.org/export/web-services.html) client extension for the Yii2 Framework.
 It wraps around the [geonames-api php library](https://github.com/spacedealer/geonames-api).
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/88aa66d1-82bb-4b4d-8b9a-0658211d06ed/mini.png)](https://insight.sensiolabs.com/projects/88aa66d1-82bb-4b4d-8b9a-0658211d06ed)
