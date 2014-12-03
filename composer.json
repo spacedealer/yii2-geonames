@@ -1,6 +1,21 @@
 {
 	"name": "spacedealer/yii2-geonames",
-	"description": "Yii2 extension geonames.org webservice api",
+	"description": "Yii2 extension for geonames.org webservice api",
+	"keywords": [
+		"yii2",
+		"extension",
+		"geonames",
+		"guzzle",
+		"REST",
+		"api",
+		"client"
+	],
+	"homepage": "https://github.com/spacedealer/yii2-geonames",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/spacedealer/yii2-geonames/issues",
+		"source": "https://github.com/spacedealer/yii2-geonames"
+	},
 	"authors": [
 		{
 			"name": "Dirk Adler",
