@@ -40,6 +40,7 @@ Once the extension is installed, simply modify your application configuration as
 		],
 	],
 ],
+```
 
 ## Todos
 
