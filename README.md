@@ -1,9 +1,12 @@
-# Geonames REST api client Yii2 extension
+# Geonames api client extension for Yii2
 
 **Attention**: Please do not use in production environments. It‘s WIP.
 
 This is a [geonames API](http://www.geonames.org/export/web-services.html) client extensions for the Yii2 Framework.
-It is a wrapper for the geonames-api php library.
+It wraps around the [geonames-api php library](https://github.com/spacedealer/geonames-api).
+
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/88aa66d1-82bb-4b4d-8b9a-0658211d06ed/mini.png)](https://insight.sensiolabs.com/projects/88aa66d1-82bb-4b4d-8b9a-0658211d06ed)
+[![Dependency Status](https://www.versioneye.com/user/projects/547eea7c8674a4d2330001aa/badge.svg?style=flat)](https://www.versioneye.com/user/projects/547eea7c8674a4d2330001aa)
 
 ## Requirements
 
