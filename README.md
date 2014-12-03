@@ -36,12 +36,20 @@ to the require section of your `composer.json` file.
 Once the extension is installed, simply modify your application components configuration as follows:
 
 ```php
-	'geonames' => [
-		'class' => 'spacedealer\geonames\Geonames',
-		'username' => 'your_username',
-		'language' => 'de',
-	],
+'geonames' => [
+	'class' => 'spacedealer\geonames\Geonames',
+	'username' => 'your_username',
+	'language' => 'de',
 ],
+```
+Use within your Yii2 application logic:
+
+```php
+$geonames = \Yii::$app->get('geonames')->getClient();
+$response = $geonames->postalCodeSearch([
+	'country' => 'de',
+	'postalcode' => '10997',
+]);
 ```
 
 ## Todos
