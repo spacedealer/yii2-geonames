@@ -11,6 +11,7 @@
 		"client"
 	],
 	"homepage": "https://github.com/spacedealer/yii2-geonames",
+	"type": "yii2-extension",
 	"license": "BSD-3-Clause",
 	"support": {
 		"issues": "https://github.com/spacedealer/yii2-geonames/issues",
