@@ -10,11 +10,16 @@ namespace spacedealer\geonames;
 
 use yii\base\Component;
 
+/**
+ * Class Geonames
+ *
+ * @package spacedealer\geonames
+ */
 class Geonames extends Component
 {
 
     /**
-     * @var string Base url. You may use cloudfront as base url here.
+     * @var string Base url. You may use a different base url - for example aws cloudfront.
      */
     public $baseUrl = 'http://api.geonames.org/';
 
