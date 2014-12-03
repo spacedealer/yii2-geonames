@@ -30,16 +30,13 @@ to the require section of your `composer.json` file.
 
 ## Usage
 
-Once the extension is installed, simply modify your application configuration as follows:
+Once the extension is installed, simply modify your application components configuration as follows:
 
 ```php
-'log' => [
-	'targets' => [
-		'geonames' => [
-			'class' => 'spacedealer\geonames\Geonames',
-			'username' => 'your_username',
-			'language' => 'de',
-		],
+	'geonames' => [
+		'class' => 'spacedealer\geonames\Geonames',
+		'username' => 'your_username',
+		'language' => 'de',
 	],
 ],
 ```
