@@ -25,10 +25,10 @@
 	],
 	"require": {
 		"yiisoft/yii2": "*",
-		"spacedealer/geonames-api": "0.1.*"
+		"spacedealer/geonames-api": "0.2.*"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "4.3.*"
+		"phpunit/phpunit": "4.4.*"
 	},
 	"autoload": {
 		"psr-4": {
