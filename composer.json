@@ -1,38 +1,39 @@
 {
-	"name": "spacedealer/yii2-geonames",
-	"description": "Yii2 extension for geonames.org webservice api",
-	"keywords": [
-		"yii2",
-		"extension",
-		"geonames",
-		"guzzle",
-		"REST",
-		"api",
-		"client"
-	],
-	"homepage": "https://github.com/spacedealer/yii2-geonames",
-	"type": "yii2-extension",
-	"license": "BSD-3-Clause",
-	"support": {
-		"issues": "https://github.com/spacedealer/yii2-geonames/issues",
-		"source": "https://github.com/spacedealer/yii2-geonames"
-	},
-	"authors": [
-		{
-			"name": "Dirk Adler",
-			"email": "adler@spacedealer.de"
-		}
-	],
-	"require": {
-		"yiisoft/yii2": "*",
-		"spacedealer/geonames-api": "0.2.*"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "4.4.*"
-	},
-	"autoload": {
-		"psr-4": {
-			"spacedealer\\geonames\\": "src/"
-		}
-	}
+  "name": "spacedealer/yii2-geonames",
+  "description": "Yii2 extension for geonames.org webservice api",
+  "keywords": [
+    "yii2",
+    "extension",
+    "geonames",
+    "guzzle",
+    "REST",
+    "api",
+    "client"
+  ],
+  "homepage": "https://github.com/spacedealer/yii2-geonames",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/spacedealer/yii2-geonames/issues",
+    "source": "https://github.com/spacedealer/yii2-geonames"
+  },
+  "authors": [
+    {
+      "name": "Dirk Adler",
+      "email": "adler@spacedealer.de"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "spacedealer/geonames-api": "0.2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "spacedealer\\geonames\\": "src/",
+      "spacedealer\\tests\\geonames\\": "tests/"
+    }
+  }
 }
