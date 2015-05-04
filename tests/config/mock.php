@@ -8,7 +8,7 @@
  */
 
 return [
-    'id' => 'spacedealer-yii2-here',
+    'id' => 'spacedealer-yii2-geonames',
     'basePath' => dirname(__DIR__),
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
